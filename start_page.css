@@ -1,0 +1,131 @@
+body
+{
+	background-image:URL('fresh_snow.png');
+	/*background-repeat:no-repeat;*/
+	background-attachment: fixed;
+	background-position: center;
+	font-family:Helvetica;
+}
+table.header
+{
+	background:black;
+	color:white;
+	font-family:Monospace;
+}
+table.menu
+{
+	margin-top:4%;
+	margin-left:10%;
+	table-layout: fixed;
+	width:80%;
+	background:#6afb92;
+	border-radius:20%;
+	border-left:6px solid black;
+	border-top:4px solid darkgray;
+	-moz-transform:rotate(180);
+}
+td.menuitem
+{
+	border:2px dotted black;
+	padding:3px;
+	/*background:URL('fresh_snow.png');*/
+	text-align:center;
+	background:white;
+	box-shadow:20 20 20 #888;
+	border-radius:10%;
+	border-right:3px solid black;
+}
+td.menuitem:hover
+{
+	/*border:5px solid black;*/
+	background:black;
+	color:white;
+	/*font-family:Consolas;	*/
+}
+img
+{
+	margin-left:5%;
+	width:200;
+	height:150;
+	border-radius:50%;
+	/*border:2px solid black;*/
+	border-left:5px solid black;
+	border-bottom:5px solid gray;
+}
+img:hover
+{
+	border-color:black;
+	border-style:solid;
+	margin-left:-20%;
+	width:225;
+	height:175;
+}
+img.grayscale_img
+{
+	background-color:white;
+}
+#miniHead
+{
+	font-weight:bold;
+	text-decoration:underline;
+}
+table.menubar
+{
+	background:black;
+	text-align:center;
+}
+td.main_menuitem
+{
+	width:200;
+	border-top: 1px solid white;
+	border-right:1px solid white;
+	border-bottom:1px solid lightgreen;
+	border-left:1px solid yellow;
+}
+td.main_menuitem:hover
+{
+	background:white;
+	color:black;
+}
+a
+{
+	color:#3ECFE1;
+	font-family:Monospace;
+}
+td.welcomeMsg
+{
+	border-top:1px solid white;
+	color:white;
+	font-weight:bold;
+	font-size:15px;
+	font-family:Monospace;
+	text-align:left;
+}
+#item1,#item2,#item3,#item4
+{
+	background-position:fixed;
+	background-repeat:no-repeat;
+	background-origin:center;
+}
+/*
+#item1
+{
+	background-image:URL('em/add_exp.png');
+}
+#item2
+{
+	background-image:URL('em/exp_rep.jpg');
+}
+#item3
+{
+	background-image:URL('em/expense_rep.png');
+}
+#item4
+{
+	background-image:URL('em/profile.png');
+}
+p,p:hover
+{
+	background:white;
+	color:black;
+}*/

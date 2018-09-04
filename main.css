@@ -1,0 +1,41 @@
+body
+{
+	font-family:Consolas;
+	background:URL('http://localhost/drsearch/html/img/fresh_snow.png');
+}
+table.layout1{
+    position: relative;
+    left: 130px;
+    border: 3px solid WHITE;
+	box-shadow: 0 4px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);color:black;font-size:19px;
+	text-align:left; border-radius: .25em;
+}
+	;}	
+table.layout2 {
+    position: relative;
+    left: 85px;
+   // border: 3px solid #73AD21;}	
+table.menubar{
+ text-align:center;background:url("./img/solid1.jpg");border:2px solid #ffffff;} 
+tr.cursor{cursor:pointer }
+.thumbnail {
+  background: ;
+  width: 40px;
+  height: 40px;
+  margin: 0 auto 0px;
+  padding: 0px 0px;
+  border-top-left-radius: 100%;
+  border-top-right-radius: 100%;
+  border-bottom-left-radius: 100%;
+  border-bottom-right-radius: 100%;
+  box-sizing: border-box;}
+.thumbnail img {
+ display: block;
+ width: 100%;}
+.add{background:white;position:absolute;top:30px;left:800px;width:250px;height:250px;}
+.layout3{ background-color:white;box-shadow: 0 4px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);font-family:footlight MT light;color:black;font-size:19px;	text-align:left; border-radius: .25em;}
+.layout3 td {color:black;font-size:19px;text-align:left; border-radius: .25em;}
+.layout3 h1 {font-size:20px;box-shadow: 0 4px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);color:black;font-size:19px;	text-align:left; border-radius: .25em;}
+.layout4{color:white;background-color:#;box-shadow: 0 4px 8px rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);color:black;font-size:19px;	text-align:left; border-radius: .25em;}
+.layout4 small {}
+.layout4 table{background-color:black;}

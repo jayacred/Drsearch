@@ -1,0 +1,64 @@
+<html>
+<title>DIAGONISTIC-ADMIN</title>
+<link rel="stylesheet" href="http://localhost/Drsearch/html/RegisterUser.css"></link>
+<table border="0" background="./img/table2.jpg" width=100% height=10%></tbody><tr>
+<td><h1 style="font:90px footlight MT light; text-align:center; color:white">DrSEARCH:Admin</h1>
+</td></tr>
+<body>
+<table border="1"cellpadding="1"cellspacing="0"bgcolor="#82caff" height=10% width=100%  align=center ><tbody>
+<tr>
+<td onclick="location.href='http://localhost/drsearch/html/hospitaladmin.html'"align=center style="cursor:pointer;font:20px footlight MT light;">HOSPITALS</td>
+<td onclick="location.href='http://localhost/drsearch/html/doctoradmin.html'"align=center style="cursor:pointer;font:20px footlight MT light;">DOCTORS</td>
+<td onclick="location.href='http://localhost/drsearch/html/bloodbankadmin.html'"align=center style="cursor:pointer;font:20px footlight MT light;">BLOODBANK</td>
+<td onclick="location.href='http://localhost/drsearch/html/appointmentretrive.php'"align=center style="cursor:pointer;font:20px footlight MT light;">APPOINTMENTS</td>
+<td onclick="location.href='http://localhost/drsearch/html/diagonisticadmin.html'"align=center style="cursor:pointer;font:20px footlight MT light;background-color:cyan;">DIAGONASTIC CENTERS</td>
+<center>
+<form action="./conndiagonistics.php" method="post">
+<table border="0" cellpadding="0"cellspacing="10"width=30% height=50% align=center></tbody>
+<tr>
+ <tr><b>
+   <center><h4 style="font:50px consolas;color:green;">ADD Diagonistic-center</h4></center>
+</b></tr>
+<tr><td><b>DIAGONISTIC-center ID:</b></td>
+<td><input type="text" value="" name="diaogID"></td>
+<tr>
+<td><b>DIAGONISTIC CENTER Name:</b></td>
+<td><input type="text" value="" name="dianame" reqiuired><br></td>
+</tr>
+<tr>
+<td><b>facility:</b></td>
+<td><input type="text" value="" name="diafacility" reqiuired><br></td>
+</tr>
+<tr>
+<td><b>services provided:</b></td>
+<td><input type="text" value="" name="diaservice" reqiuired><br></td>
+</tr>
+<tr><td><b>Prices Range:</b></td>
+<td>
+<div align=left>
+<select value="" name="diaprice">
+<option>affordable</option>
+<option>good</option>
+<option>high</option> 
+</td>
+</tr>
+</div>
+</tr>
+<tr><td><b> DIAGONISTIC ADDRESS:</b></td>
+<td><textarea value="" name="dialocation"required rows="5" cols="16"></textarea></td>
+</tr>
+<tr><td><b>DRSEARCH rating:</b></td><td>
+<input type="text" value="" name="drate" ><br></td>
+<tr><td><b>Avg.Patient rating:</b></td><td>
+<input type="text" value="" name="prate" ><br></td>
+</tr>
+<tr><td><input type="submit" value="submit"class="btn"/>
+<input type="reset" value="clear"class="btn"/></td>
+</tr>
+</tr>
+</center>
+<div style="position:absolute; left: 30px; top: 230px;">
+<small>redirect to </small><big>HOME<a href=home.html>clickhere>></a>
+</div>
+</body>
+</html>

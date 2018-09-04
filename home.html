@@ -1,0 +1,339 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>HOME</title>
+  <table  cellpadding="10" border="0" background="img/banner.jpg" width=100% <style="height:30px"><tr>
+<td style="font:100px footlight mt light; text-align:center; color:black"> DR SEARCH
+</td></tr>
+ </table><style>
+ .hover 
+ td:hover{color:b4cfec;background-color:white;}
+ </style>
+
+ <link rel='stylesheet' href='http://localhost/drsearch.css'></link>
+ <link rel='stylesheet' href='http://localhost/drsearch/html/main.css'></link>
+ <link rel='stylesheet' href='http://localhost/project/menubar.css'></link>
+ <link rel="stylesheet" href="http://localhost/drsearch/html/RegisterUser.css"></link>
+ <body class="position">
+
+<table class="hover"border="0"cellpadding="10"cellspacing="0"bgcolor="#82caff"height=10% width=100% align=center><tbody>
+
+<tr>
+<td onclick="location.href='../html/home.html'"align=center style="cursor:pointer;background-color:cyan;">HOME</td>
+<td onclick="location.href='../html/enquiry.html'"align=center style="cursor:pointer;color">HOSPITALS  ENQUIRY</td>
+<td onclick="location.href='../html/doctors.html'"align=center style="cursor:pointer">DOCTORS</td>
+<td onclick="location.href='../html/emergency dials.html'"align=center style="cursor:pointer">EMERGENCY DIALS</td>
+<td onclick="location.href='../html/appointment.html'"align=center style="cursor:pointer">APPOINTMENT</td>
+<td onclick="location.href='../html/bloodbank.html'"align=center style="cursor:pointer;">BLOODBANK</td>
+<td onclick="location.href='../html/diagonistics.html'"align=center style="cursor:pointer">DIAGONISTICS</td>
+<td onclick="location.href='../html/about us.html'"align=center style="cursor:pointer">ABOUT US</td>
+<td onclick="location.href='../html/help.php'"align=center style="cursor:pointer"s>HELP</td>
+</tr>
+</table>
+</head>
+<body style="padding:0px; margin:0px; background-color:#fff;font-family:helvetica, arial, verdana, sans-serif">
+
+   
+    <script src="js/jssor.slider-22.0.6.min.js" type="text/javascript"></script>
+    <script type="text/javascript">
+        jssor_1_slider_init = function() {
+
+            var jssor_1_SlideoTransitions = [
+              [{b:-1,d:1,o:-1},{b:0,d:1000,o:1}],
+              [{b:1900,d:2000,x:-379,e:{x:7}}],
+              [{b:1900,d:2000,x:-379,e:{x:7}}],
+              [{b:-1,d:1,o:-1,r:288,sX:9,sY:9},{b:1000,d:900,x:-1400,y:-660,o:1,r:-288,sX:-9,sY:-9,e:{r:6}},{b:1900,d:1600,x:-200,o:-1,e:{x:16}}]
+            ];
+
+            var jssor_1_options = {
+              $AutoPlay: true,
+              $SlideDuration: 800,
+              $SlideEasing: $Jease$.$OutQuint,
+              $CaptionSliderOptions: {
+                $Class: $JssorCaptionSlideo$,
+                $Transitions: jssor_1_SlideoTransitions
+              },
+              $ArrowNavigatorOptions: {
+                $Class: $JssorArrowNavigator$
+              },
+              $BulletNavigatorOptions: {
+                $Class: $JssorBulletNavigator$
+              }
+            };
+
+            var jssor_1_slider = new $JssorSlider$("jssor_1", jssor_1_options);
+
+            /*responsive code begin*/
+            /*you can remove responsive code if you don't want the slider scales while window resizing*/
+            function ScaleSlider() {
+                var refSize = jssor_1_slider.$Elmt.parentNode.clientWidth;
+                if (refSize) {
+                    refSize = Math.min(refSize, 1920);
+                    jssor_1_slider.$ScaleWidth(refSize);
+                }
+                else {
+                    window.setTimeout(ScaleSlider, 30);
+                }
+            }
+            ScaleSlider();
+            $Jssor$.$AddEvent(window, "load", ScaleSlider);
+            $Jssor$.$AddEvent(window, "resize", ScaleSlider);
+            $Jssor$.$AddEvent(window, "orientationchange", ScaleSlider);
+            /*responsive code end*/
+        };
+    </script>
+    <style>
+        /* jssor slider bullet navigator skin 05 css */
+        /*
+        .jssorb05 div           (normal)
+        .jssorb05 div:hover     (normal mouseover)
+        .jssorb05 .av           (active)
+        .jssorb05 .av:hover     (active mouseover)
+        .jssorb05 .dn           (mousedown)
+        */
+        .jssorb05 {
+            position: absolute;
+        }
+        .jssorb05 div, .jssorb05 div:hover, .jssorb05 .av {
+            position: absolute;
+            /* size of bullet elment */
+            width: 16px;
+            height: 16px;
+            background: url('img/b05.png') no-repeat;
+            overflow: hidden;
+            cursor: pointer;
+        }
+        .jssorb05 div { background-position: -7px -7px; }
+        .jssorb05 div:hover, .jssorb05 .av:hover { background-position: -37px -7px; }
+        .jssorb05 .av { background-position: -67px -7px; }
+        .jssorb05 .dn, .jssorb05 .dn:hover { background-position: -97px -7px; }
+
+        /* jssor slider arrow navigator skin 22 css */
+        /*
+        .jssora22l                  (normal)
+        .jssora22r                  (normal)
+        .jssora22l:hover            (normal mouseover)
+        .jssora22r:hover            (normal mouseover)
+        .jssora22l.jssora22ldn      (mousedown)
+        .jssora22r.jssora22rdn      (mousedown)
+        .jssora22l.jssora22lds      (disabled)
+        .jssora22r.jssora22rds      (disabled)
+        */
+        .jssora22l, .jssora22r {
+            display: block;
+            position: absolute;
+            /* size of arrow element */
+            width: 40px;
+            height: 58px;
+            cursor: pointer;
+            background: url('img/a22.png') center center no-repeat;
+            overflow: hidden;
+        }
+        .jssora22l { background-position: -10px -31px; }
+        .jssora22r { background-position: -70px -31px; }
+        .jssora22l:hover { background-position: -130px -31px; }
+        .jssora22r:hover { background-position: -190px -31px; }
+        .jssora22l.jssora22ldn { background-position: -250px -31px; }
+        .jssora22r.jssora22rdn { background-position: -310px -31px; }
+        .jssora22l.jssora22lds { background-position: -10px -31px; opacity: .3; pointer-events: none; }
+        .jssora22r.jssora22rds { background-position: -70px -31px; opacity: .3; pointer-events: none; }
+    </style>
+
+	
+	
+
+ <div style="position: relative; left:-100px; top: 10px; ">		
+ <table class="layout1" align="center" border=0 height='30%' width='20%' align="left">		
+ <tbody>
+  <tr>
+   <td>
+    <div id="jssor_1" style="position: relative; margin: 0 auto; top: 0px; left: 0px; width: 1000px; height: 350px; overflow: hidden;      visibility: hidden;">
+<!-- Loading Screen -->
+ <div data-u="loading" style="position: absolute; top: 0px; left: 0px;">
+  <div style="filter: alpha(opacity=70); opacity: 0.7; position: absolute; display: block; top: 0px; left: 0px; width:     100%; height: 100%;">
+   </div>
+  <div style="position:absolute;display:block;background:url('img/loading.gif') no-repeat center     center;top:0px;left:0px;width:100%;height:100%;">
+   </div>
+ </div>
+ <div data-u="slides" style="cursor: default; position: relative; top: 0px; left: 0px; width: 1000px; height: 350px; overflow:   hidden;">
+      <div data-p="225.00">
+       <img data-u="image" src="img/doc3.jpg" />
+        <div style="position:absolute;top:30px;left:30px;width:480px;height:120px;z-index:0;font-size:40px;color:black;line-height:60px;">WELCOME TO Dr.SEARCH
+        </div>
+        <div style="position:absolute;top:200px;left:30px;width:480px;height:100px;z-index:0;font-size:30px;color:#00000;line-height:38px;">All Medical services on your FINGERTIPS
+        </div>
+        <div data-u="caption" data-t="0" style="position:absolute;top:10px;left:390px;width:470px;height:220px;z-index:0;">
+         <img style="position:absolute;top:0px;left:0px;width:470px;height:220px;z-index:0;" src="img/c-phone-horizontal.png" />
+        <div style="position:absolute;top:4px;left:45px;width:379px;height:213px;z-index:0; overflow: hidden;"> 
+         <img data-u="caption" data-t="1" style="position:absolute;top:0px;left:0px;width:379px;height:213px;z-index:0;"   src="img/doc1.jpg" />
+         <img data-u="caption" data-t="2" style="position:absolute;top:0px;left:379px;width:379px;height:213px;z-index:0;"src="img/doc2.jpg" />
+        </div>            
+        <img style="position:absolute;top:4px;left:45px;width:379px;height:213px;z-index:0;" src="img/c-navigator-horizontal.png" />
+       <img data-u="caption" data-t="3" style="position:absolute;top:740px;left:1600px;width:257px;height:300px;z-index:0;" src="img/c-finger-pointing.png" />
+        </div>
+            </div>
+            <a data-u="any" href="http://www.jssor.com" style="display:none">Full Width Slider</a>
+            <div data-p="225.00" style="display: none;">
+               <img data-u="image" src="img/doc4.jpg" />
+				 <div style="position:absolute;top:200px;left:30px;width:480px;height:100px;z-index:0;font-size:30px;color:#00000;line-height:38px;">The efficient way of searching doctors and hospitals</br>"Based on Rating"
+                  </div>
+           </div>
+           <div data-p="225.00" data-po="80% 55%" style="display: none;">
+             <img data-u="image" src="img/emer1.jpg" />
+			  <div style="position:absolute;top:30px;left:30px;width:480px;height:120px;z-index:0;font-size:30px;color:black;line-height:60px;">24X7 emergency services and ONLINE appointment
+                </div>
+           </div>
+           <div data-p="225.00" data-po="80% 55%" style="display: none;">
+             <img data-u="image" src="img/doc6.jpg" />
+			   <div style="position:absolute;top:200px;left:30px;width:480px;height:100px;z-index:0;font-size:30px;color:#00000;line-height:38px;">Precision DIAGONASTICS<br>with the Best available<br>diagonastic centers
+                </div>
+			</div>
+		    <div data-p="225.00" data-po="80% 55%" style="display: none;">
+              <img data-u="image" src="img/doctor3.jpg" />
+			    <div style="position:absolute;top:200px;left:30px;width:480px;height:100px;z-index:0;font-size:30px;color:#00000;line-height:38px;">lifesaver bloodbank..
+                 </div>
+            </div>
+        </div>
+        <!-- Bullet Navigator -->
+        <div data-u="navigator" class="jssorb05" style="bottom:16px;right:16px;" data-autocenter="1">
+            <!-- bullet navigator item prototype -->
+            <div data-u="prototype" style="width:16px;height:16px;"></div>
+        </div>
+        <!-- Arrow Navigator -->
+        <span data-u="arrowleft" class="jssora22l" style="top:0px;left:8px;width:40px;height:58px;" data-autocenter="2"></span>
+      <span data-u="arrowright" class="jssora22r" style="top:0px;right:8px;width:40px;height:58px;" data-autocenter="2"></span>
+ </div>
+  <script type="text/javascript">jssor_1_slider_init();</script>
+<!-- #endregion Jssor Slider End -->
+   </td> </tr>
+</tbody>
+</table>
+</div>
+
+<table align="center"class="layout2" border=0 height=1000px width=1170px cellspacing=25px cellpadding=5px >
+<tbody>
+<tr class="layout3">
+<td  valign="top" colspan=2 height=250px style="border:1px solid #000000">
+<h1>&nbsp;&nbsp;&nbsp;&nbsp;Welcome to DRSEARCH </br>_________________________________________________________________</h1>
+<p>DRSEARCH,#ALL_MEDICAL_SERVICES_ON_YOUR_FINGERTIPS" as the name depicts the website for your need,<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp*Are u in search for a <i><b> best doctor </b></i>in ur city<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp*Do you want to have a health checkup in the<b> best hospital</b> in the city.<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp*Are u fed up <b>fixing appointments</b> by cumbersome phonecalls<br>
+&nbsp&nbsp&nbsp&nbsp&nbsp*Is there any <b>emergency</b> want of <b>blood</b> and wanna enquire for? <br>
+Then you are in the right place now!!!<br>we provide the<b>BEST OF THE OF BEST</b> enquire tool for all your medical needs<br>
+With accurate and the top most rated website in providing medical-based enquiry..we care about your health...</p>
+</td>
+<td  valign="top" colspan=1 width=300px style="border:1px solid #000000" >
+<h1>&nbsp;&nbsp;&nbsp;&nbsp;PROMOS </br>______________________________</h1>
+<marquee behavior="scroll" direction="left" scrollamount="4" scrolldelay="10">
+<img src="img/kinley.jpg" width="250"height="250">
+<img src="img/max-logo.png" width="250" height="250">
+<img src="img/zandu.png" width="250" height="250">
+<img src="img/himalaya.jpg" width="250" height="250">
+<img src="img/vicks.jpg" width="250" height="250">
+<img src="img/bisleri.png" width="250" height="250">
+<img src="img/ayush.png" width="250" height="250">
+</marquee><br>
+</td>
+</tr>
+<tr class="layout3">
+<td valign="top"   height=350px style="border:1px solid #000000" >
+<table border=0 cellpadding=0px cellspacing=5px ">
+<tr>
+<td colspan=2 >
+<h1>&nbsp&nbsp&nbsp&nbsp EVENTS</br>______________________________</h1></td></tr>
+<tr>
+<td style=" width:80px; height:70px;text-align:center; vertical-align:middle"><img class="thumbnail1" style="max-height:70px; max-width:80px;width:80px; height:70px;text-align:center; vertical-align:middle" src="img/calender.png"/></td>
+<td>AYUM..Blood donation camp at YMCA bloodbank opp.yamaguchi intrenational martial arts centre.narayanguda hyderabad from 10:00AM to 3:00PM </td>
+</td>
+</tr>
+<tr><td colspan=2 style="color:#aaa;">_____________________________________</td></tr>
+<tr >
+<td style="width:80px; height:70px;text-align:center; vertical-align:middle"><img class="thumbnail1" style="max-height:70px; max-width:80px;width:80px; height:70px;text-align:center; vertical-align:middle" src="img/calender.png"/></td>
+<td>SHE teams 5k run runway19, nanakramguda, gachibowli, hyderabad.starts at 6:30AM sharp. </td>
+</td>
+</tr>
+<tr><td colspan=2 style="color:#aaa;">____________________________________</td></tr>
+<tr >
+<td style="width:80px; height:70px;text-align:center; vertical-align:middle"><img class="thumbnail1" style="max-height:70px; max-width:80px;width:80px; height:70px;text-align:center; vertical-align:middle" src="img/calender.png"/></td>
+<td >manovikas annual yoga health day,pranayama yoga association,peoples plaza,necklace road,khairtabad,hyderabad.starts 5:30AM sharp. </td>
+</td>
+</tr>
+</table>
+</td>
+<td   valign="top" colspan=1 style="border:1px solid #000000" >
+<table border=0 cellpadding=0px cellspacing=5px ">
+<tr>
+<td colspan=2 >
+<h1>&nbsp;&nbsp;&nbsp;&nbsp; OFFERS</br>______________________________</h1></td></tr>
+<tr>
+<td style=" width:80px; height:70px;text-align:center; vertical-align:middle"><img class="thumbnail1" style="max-height:70px; max-width:80px;width:80px; height:70px;text-align:center; vertical-align:middle" src="img/vcare.png"/></td>
+<td>Discount <strike>flat 20%</strike> 30% on hair trichology and acne treatments HURRY UP!!!!</td>
+</td>
+</tr>
+<tr><td colspan=2 style="color:#aaa;">_____________________________________</td></tr>
+<tr >
+<td style="width:80px; height:70px;text-align:center; vertical-align:middle"><img class="thumbnail1" style="max-height:70px; max-width:80px;width:80px; height:70px;text-align:center; vertical-align:middle" src="img/vasan.jpg"/></td>
+<td>free eye check up for old 60 years and above.</td>
+</td>
+</tr>
+<tr><td colspan=2 style="color:#aaa;">____________________________________</td></tr>
+<tr >
+<td style="width:80px; height:70px;text-align:center; vertical-align:middle"><img class="thumbnail1" style="max-height:70px; max-width:80px;width:80px; height:100px;text-align:center; vertical-align:middle" src="img/indusland.png"/></td>
+<td>healthcare loans starting at low interest of 3.56%.</td>
+</td>
+</tr>
+</table>
+</td>
+<td  colspan=1  style="border:1px solid #000000;width:80px; height:60px;text-align:center; vertical-align:top">
+<table border=0 cellpadding=1px cellspacing=10px>
+<tr>
+<h1 align=left >&nbsp;&nbsp;&nbsp;&nbsp;HEALTH GALLERY</br>______________________________</h1>
+<td><img src="img/family.png"width="300"height="300"></td>
+</tr>
+<tr>
+<center><td onclick="location.href='../html/gallery/index.html'"align=center style="cursor:pointer;" /><input type="button"name="" value="Show More" class="btn"></center></td>
+</tr>
+
+</table>
+</td>
+</tr>
+<tr class="layout3">
+<td  valign="top" colspan=7 style="border:1px solid #000000" >
+<h1>&nbsp;&nbsp;&nbsp;&nbsp;Associated with </br>_________________________________________________________________</h1>
+<p><img src="img/naco.png"width="150"height="100">
+<img src="img/who.jpg"width="150"height="100">
+<img src="img/nmi.jpg"width="200"height="100">
+<img src="img/nri.jpg"width="200"height="100">
+<img src="img/malasia.png"width="180"height="100">
+<img src="img/ihl.jpg"width="150"height="100">
+<img src="img/americanredcross.png"width="200"height="100">
+<img src="img/dentalcouncil.png"width="200"height="100">
+<img src="img/blood5.jpg"width="200"height="120">
+<img src="img/max-logo.png"width="200"height="100"></p>
+</td> 
+</td>
+<div style="position:absolute; left: 30px; top: 200px;">
+ <table border=0 height='50%' width='50%' align='top'>
+  <tbody>
+    <tr><td><img src="img/doctor.jpg" alt="Test Image" border="3"width="80" height="80" align="left"/></td></tr>
+    <tr><td><small>login as</small><big>ADMIN<a href=adminlogin.html>clickhere>></a></td></tr>
+  </tbody>
+ </table>
+</div>
+<table  width=100% border="0"  cellpadding=10px cellspacing="0">
+ <tr class="layout4">
+ <td  align="center" width="100%" colspan="3"> 
+  Privacy policy | Terms
+  <center> 
+    <small>Copyright © 2017  DrSearch  All Rights Reserved. | English| Hindi | conditions Apply. </small>  </br>
+	<small>DUPLICATION or illegal use of use of the website are strictly prosecuted..... </small> 
+  </center>
+   </br>  
+  </td> 
+ </tr>
+ </table>
+</body>
+</html>

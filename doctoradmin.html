@@ -1,0 +1,94 @@
+<html>
+<script lang="text/javascript" src="http://localhost/ExpenseManager/RegisterUser.js"></script>
+<link rel="stylesheet" href="http://localhost/Drsearch/html/RegisterUser.css"></link>
+<title>ADD doctor</title>
+<table border="0" background="img/table2.jpg" width=100% height=20%></tbody><tr>
+<td><h1 style="font:90px footlight MT light; text-align:center; color:white"</h1> DR SEARCH:admin
+</td></tr>
+<body>
+<table border="1"cellpadding="1"cellspacing="0"bgcolor="#82caff" height=10% width=100%  align=center ><tbody>
+<tr>
+<td onclick="location.href='http://localhost/drsearch/html/hospitaladmin.html'"align=center style="cursor:pointer;font:20px footlight MT light;">HOSPITALS</td>
+<td onclick="location.href='http://localhost/drsearch/html/doctoradmin.html'"align=center style="cursor:pointer;font:20px footlight MT light;background-color:cyan;">DOCTORS</td>
+<td onclick="location.href='http://localhost/drsearch/html/bloodbankadmin.html'"align=center style="cursor:pointer;font:20px footlight MT light;">BLOODBANK</td>
+<td onclick="location.href='http://localhost/drsearch/html/appointmentadmin.html'"align=center style="cursor:pointer;font:20px footlight MT light;">APPOINTMENTS</td>
+<td onclick="location.href='http://localhost/drsearch/html/diagonisticadmin.html'"align=center style="cursor:pointer;font:20px footlight MT light;">DIAGONASTIC CENTERS</td>
+</tr>
+
+<center>
+<form action="./conndoctor.php" method="post">
+<table border="0" cellpadding="0"cellspacing="10"width=50% height=50% align=center></tbody>
+<tr>
+ <tr><b>
+   <center><h4 style="font:50px consolas;color:green;">ADD doctor</h4></center>
+</b></tr>
+<tr><td><b>DOCTOR ID:</b></td>
+<td><input type="text" value="" name="docID" required></td>
+<tr><td><b>ENTER NAME:</b></td>
+<td><input type="text" value="" name="name"required></td>
+</tr><br>
+<tr><td><b>SPECIALISATION:</b></td>
+<td>
+<div align="left">
+<select value="" name="specialisation"required>
+<option>Cardiologist&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp</option>
+<option>Pulmonologist</option>
+<option>Opthamologist</option>
+<option>Neurologist</option>
+<option>Nephrologist</option>
+<option>Dermatologist</option>
+<option>Gyneacologist</option>
+<option>Sexologist</option>
+<option>Radiologist</option>
+<option>Orthologist</option>
+<option>psycologist</option>
+</td>
+</tr>
+</div>
+<tr>
+<td><b>QUALIFICATION:</b></td>
+<td><input type="text" value="" name="qualify" reqiured><br></td>
+</tr>
+<tr><td><b>YEARS OF EXPERIENCE:</b></td>
+<td><input type="text" value="" name="yearexp" ><br></td>
+</tr>
+<tr><td><b>NO. OF SUCCESSFUL CASES:</b></td><td>
+<input type="text" value="" name="success" ><br></td>
+</tr>
+<tr><td><b>NO.OF FAILURES:</b></td><td>
+<input type="text" value="" name="fail" ><br></td>
+</tr>
+<tr><td><b>DOCTOR TIMINGS:</b></td><td>
+<td><input type="text"size=3 value="" name="dtime1" >
+<td><div align="center">
+<select value="" name="dam"required>
+<option>AM</option>
+<option>PM</option></div>
+<td><input type="text"size=3 value="" name="dtime2" >
+<td><div align="center">
+<select value="" name="dpm"required>
+<option>AM</option>
+<option>PM</option></div><br>
+</td>
+</td>
+</tr>
+<tr><td><b>CONSULATION FEE:</b></td><td>
+<input type="text" value="" name="dfee" ><br></td>
+</tr>
+<tr><td><b>CONTACT NO:</b></td><td>
+<input type="text" value="" name="dcontact" ><br></td>
+</tr>
+<tr><td><b>HOSPITAL:</b></td><td>
+<input type="text" value="" name="hospital"required><br></td>
+<tr><td><b>HOSPITAL LOCATION:</b></td><td>
+<input type="text" value="" name="hoslocation"required ><br></td>
+</tr>
+<tr><td><input type="submit" value="submit"class="btn"/>
+<input type="reset" value="clear"class="btn"/></td>
+</tr>
+</center>
+</body>
+<div style="position:absolute; left: 30px; top: 230px;">
+<small>redirect to </small><big>HOME<a href=home.html>clickhere>></a>
+</div>
+</html>

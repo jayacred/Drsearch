@@ -1,0 +1,64 @@
+<html>
+<script lang="text/javascript" src="http://localhost/ExpenseManager/RegisterUser.js"></script>
+<link rel="stylesheet" href="http://localhost/Drsearch/html/RegisterUser.css"></link>
+<title>ADD bloodbank</title>
+<table border="0" background="./img/table2.jpg" width=100% height=20%></tbody><tr>
+<td><h1 style="font:90px footlight MT light; text-align:center; color:white"</h1> DR SEARCH:admin
+</td></tr>
+<body>
+<table border="1"cellpadding="1"cellspacing="0"bgcolor="#82caff" height=10% width=100%  align=center ><tbody>
+<tr>
+<td onclick="location.href='../html/hospitaladmin.html'"align=center style="cursor:pointer;font:20px footlight MT light;">HOSPITALS</td>
+<td onclick="location.href='../html/doctoradmin.html'"align=center style="cursor:pointer;font:20px footlight MT light;">DOCTORS</td>
+<td onclick="location.href='../html/bloodbankadmin.html'"align=center style="cursor:pointer;font:20px footlight MT light;background-color:cyan;">BLOODBANK</td>
+<td onclick="location.href='../emergency dials.html'"align=center style="cursor:pointer;font:20px footlight MT light;">APPOINTMENTS</td>
+<td onclick="location.href='../appointment.html'"align=center style="cursor:pointer;font:20px footlight MT light;">DIAGONASTIC CENTERS</td>
+</tr>
+
+<center>
+<form action="http://localhost/drsearch/html/connbloodbank.php" method="post">
+<table border="0" cellpadding="0"cellspacing="0"width=50% height=50% align=center></tbody>
+<tr>
+ <tr><b>
+   <center><h4 style="font:50px consolas;color:green;">ADD Bloodbank</h4></center>
+</b></tr>
+<tr><td><b>BLOODBANK ID:</b></td>
+<td><input type="text" value="" name="bloodbankID"></td>
+<tr><td><b>ENTER NAME:</b></td>
+<td><textarea value="" name="name"required rows="2" cols="16"></textarea></td>
+</tr><br>
+<tr><td><b>ADDRESS:</b></td>
+<td><textarea value="" name="address"required rows="5" cols="16"></textarea></td>
+<tr>
+<td><b>BLOODBANK::STOCK</b></td>
+<tr><td><b>A+VE:</b></td>
+<td><input type="text" value="" name="ave" ><br></td>
+<td><b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspA-VE:</b></td><td>
+<td><input type="text" value="" name="a1ve" ><br></td>
+</tr>
+<tr><td><b>B+VE:</b></td>
+<td><input type="text" value="" name="bve" ><br></td>
+<td><b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspB-VE:</b></td><td>
+<td><input type="text" value="" name="b1ve" ><br></td>
+</tr>
+<tr><td><b>O+VE:</b></td>
+<td><input type="text" value="" name="ove" ><br></td>
+<td><b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspO-VE:</b></td><td>
+<td><input type="text" value="" name="o1ve" ><br></td>
+</tr>
+<tr><td><b>AB+VE:</b></td>
+<td><input type="text" value="" name="abve" ><br></td>
+<td><b>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbspAB-VE:</b></td><td>
+<td><input type="text" value="" name="ab1ve" ><br></td>
+</tr>
+<tr><td><b>BOMBAY BLOODGROUP:</b></td>
+<td><input type="text" value="" name="bbg" ><br></td>
+<tr><td><b>CONTACT NO:</b></td>
+<td><input type="text" value="" name="contact" ><br></td>
+<tr><td><input type="submit" value="submit"class="btn"/>
+<input type="reset" value="clear"class="btn"/></td>
+</tr>
+</center>
+</body>
+<small>redirect to </small><big>HOME<a href=home.html>clickhere>></a>
+</html>

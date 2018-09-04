@@ -1,0 +1,69 @@
+<html>
+<script lang="text/javascript" src="http://localhost/ExpenseManager/RegisterUser.js"></script>
+<link rel="stylesheet" href="http://localhost/Drsearch/html/RegisterUser.css"></link>
+<title>ADD hospital</title>
+<table border="0" background="./img/table2.jpg" width=100% height=20%></tbody><tr>
+<td><h1 style="font:90px footlight MT light; text-align:center; color:white"</h1> DR SEARCH:admin
+</td></tr>
+<body>
+<table border="1"cellpadding="1"cellspacing="0"bgcolor="#82caff" height=10% width=100%  align=center ><tbody>
+<tr>
+<td onclick="location.href='http://localhost/drsearch/html/hospitaladmin.html'"align=center style="cursor:pointer;font:20px footlight MT light;background-color:cyan;">HOSPITALS</td>
+<td onclick="location.href='http://localhost/drsearch/html/doctoradmin.html'"align=center style="cursor:pointer;font:20px footlight MT light;">DOCTORS</td>
+<td onclick="location.href='http://localhost/drsearch/html/bloodbankadmin.html'"align=center style="cursor:pointer;font:20px footlight MT light;">BLOODBANK</td>
+<td onclick="location.href='http://localhost/drsearch/html/appointmentretrive.php'"align=center style="cursor:pointer;font:20px footlight MT light;">APPOINTMENTS</td>
+<td onclick="location.href='http://localhost/drsearch/html/diagonisticadmin.html'"align=center style="cursor:pointer;font:20px footlight MT light;">DIAGONASTIC CENTERS</td>
+<center>
+<form action="./connhospital.php" method="post">
+<table border="0"cellpadding="0"cellspacing="10"width=40% height=50% align=center></tbody>
+<tr>
+ <tr><b>
+   <center><h4 style="font:50px consolas;color:green;align:center;">ADD hospital</h4></center>
+</b></tr>
+<tr><td><b>HOSPITAL ID:</b></td>
+<td><input type="text" value="" name="hosID" required></td>
+<tr><td><b>HOSPITAL:</b></td>
+<td><input type="text" value="" name="hosname" required></td>
+</tr><br>
+<tr><td><b>HOSPITAL LOCATION:</b></td>
+<td><input type="text" value="" name="hoslocal" required></td>
+<tr>
+<td><b>HOSPITAL SPECIALISATIONS:</b></td>
+<td><input type="text" value="" name="hosspecial" reqiuired><br></td>
+</tr>
+<tr><td><b>POPULAR FOR:</b></td>
+<td><input type="text" value="" name="popfor" required ><br></td>
+</tr>
+<tr><td><b>FACILITY:</b></td>
+<td>
+<div align="left">
+<select value="" name="facility">
+<option>affordable</option>
+<option>good</option>
+<option>extraordinary &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+</td>
+</tr>
+</div>
+</tr>
+<tr><td><b>DR search RATING:</b></td><td>
+<input type="text" value="" name="drate" required><br></td>
+</tr>
+<tr><td><b>AVG.PATIENT RATING:</b></td><td>
+<input type="text" value="" name="prate"required ><br></td>
+<tr><td><b>Contact No::</b></td><td>
+<input type="text" value="" name="hcontact"required ><br></td>
+<tr><td><b>upload hospital image:</b></td><td>
+<input type="file" value="" name="hosimage"required ><br></td>
+<tr>
+<td>
+<input type="submit" value="submit"/>	
+<input type="reset" value="clear"/>
+</td>
+</tr>
+</tr>
+</center>
+</body>
+<div style="position:absolute; left: 30px; top: 230px;">
+<small>redirect to </small><big>HOME<a href=home.html>clickhere>></a>
+</div>
+</html>

@@ -1,0 +1,68 @@
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script lang="text/javascript" src="http://localhost/ExpenseManager/RegisterUser.js"></script>
+<link rel="stylesheet" href="http://localhost/Drsearch/html/RegisterUser.css"></link>
+
+<title>DOCTORS</title>
+<table border="0" background="img/banner.jpg" width=100% height=20%></tbody><tr>
+<td><h1 style="font:90px footlight MT light; text-align:center; color:black"</h1> DR SEARCH
+</td></tr>
+</head>
+<body>
+<style>
+ .hover 
+ td:hover{color:black;background-color:white;}
+ </style>
+<table class="hover" border="0"cellpadding="0"cellspacing="0"bgcolor="#82caff" height=10% width=100%  align=center ><tbody>
+<tr>
+<td onclick="location.href='../html/home.html'"align=center style="cursor:pointer;font:20px footlight MT light;">HOME</td>
+<td onclick="location.href='../html/enquiry.html'"align=center style="cursor:pointer;font:20px footlight MT light;">ENQUIRY</td>
+<td onclick="location.href='../html/doctors.html'"align=center style="cursor:pointer;font:20px footlight MT light;background-color:cyan;">DOCTORS</td>
+<td onclick="location.href='../html/emergency dials.html'"align=center style="cursor:pointer;font:20px footlight MT light;">EMERGENCY DIALS</td>
+<td onclick="location.href='../html/appointment.html'"align=center style="cursor:pointer;font:20px footlight MT light;">APPOINTMENT</td>
+<td onclick="location.href='../html/bloodbank.html'"align=center style="cursor:pointer;font:20px footlight MT light;">BLOODBANK</td>
+<td onclick="location.href='../html/diagonistics.html'"align=center style="cursor:pointer;font:20px footlight MT light;">DIAGONISTICS</td>
+<td onclick="location.href='../html/about us.html'"align=center style="cursor:pointer;font:20px footlight MT light;">ABOUT US</td>
+<td onclick="location.href='../html/help.html'"align=center style="cursor:pointer;font:20px footlight MT light;">HELP</td>
+</tr>
+<form action="./doctorretrive.php" method="post">
+<table border="0"class="registrationForm" cellpadding="10"cellspacing="0"width=30% height=30% align=center>
+<tr>
+ <tr><b><div style="position: relative; left: 530px; top:10px;">
+   <h4 style="font:50px consolas;color:green;">search doctor</h4>
+</b></tr><br>
+<tr>
+ <td><b>specialisation:</b></td>
+  <td>
+  <div align="center"class="styled-select">
+    <select value="" name="specialisation">
+     <option>Cardiologist</option>
+     <option>Pulmonologist</option>
+     <option>Opthamologist</option>
+     <option>Neurologist</option>
+     <option>Nephrologist</option>
+     <option>Dermatologist</option>
+     <option>Gyneacologist</option>
+     <option>Sexologist</option>
+     <option>Radiologist</option>
+     <option>Orthologist</option>
+     <option>psycologist</option>
+	 </select>
+    </div>
+   </td>
+ </tr>
+ <tr>
+  <td>
+   <input type="submit" value="submit"class="button"/>
+   <input type="reset" value="clear"class="button"/>
+  </td>
+ </tr>
+</tr>
+</tbody>
+</table>
+</center>
+</form>
+</body>
+</html>

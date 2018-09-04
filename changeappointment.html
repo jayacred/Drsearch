@@ -1,0 +1,94 @@
+<html>
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script lang="text/javascript" src="http://localhost/drsearch/html/RegisterUser.js"></script>
+<link rel="stylesheet" href="http://localhost/drsearch/html/registeruser.css"></link>
+<title>CHANGE.APPOINTMENT</title>
+<table border="0" background="img/banner.jpg" width=100% height=20%></tbody><tr>
+<td><h1 style="font:90px footlight MT light; text-align:center; color:black"</h1> DR SEARCH
+</td></tr>
+<table border="1"cellpadding="1"cellspacing="0"bgcolor="#82caff" height=10% width=100%  align=center ><tbody>
+<tr>
+<td onclick="location.href='../html/home.html'"align=center style="cursor:pointer;font:20px footlight MT light;">HOME</td>
+<td onclick="location.href='../html/enquiry.html'"align=center style="cursor:pointer;font:20px footlight MT light;">ENQUIRY</td>
+<td onclick="location.href='../html/doctors.html'"align=center style="cursor:pointer;font:20px footlight MT light;">DOCTORS</td>
+<td onclick="location.href='../html/emergency dials.html'"align=center style="cursor:pointer;font:20px footlight MT light;">EMERGENCY DIALS</td>
+<td onclick="location.href='../html/appointment.html'"align=center style="cursor:pointer;font:20px footlight MT light;background-color:cyan">APPOINTMENT</td>
+<td onclick="location.href='../html/bloodbank.html'"align=center style="cursor:pointer;font:20px footlight MT light;">BLOODBANK</td>
+<td onclick="location.href='../html/diagonistics.html'"align=center style="cursor:pointer;font:20px footlight MT light;">DIAGONISTICS</td>
+<td onclick="location.href='../html/about us.html'"align=center style="cursor:pointer;font:20px footlight MT light;">ABOUT US</td>
+<td onclick="location.href='../html/help.html'"align=center style="cursor:pointer;font:20px footlight MT light;">HELP</td>
+</tr>
+</tbody>
+</table>
+</head>
+<div style="position: relative; left:400px; top: -40px; ">
+   <b><h4 style="font:30px consolas;color:green;align:center;">&nbsp&nbsp&nbsp&nbsp&nbsp&nbspChange Appointment</h4></b>
+</div>
+<div style="position: relative; left:-20px; top: -150px; ">
+<table border="0"cellpadding="2"cellspacing="0"height=20% width=30% align=left><tbody>
+<tr>
+<form action="http://localhost/drsearch/html/changeappointment.php" method="POST" name="regForm">
+<table border="0" cellpadding="0"cellspacing="10"width=30% height=50% align=left class="registrationform"><tbody>
+<tr>
+<td width="50%" class="info">
+<p class="info" id="status">&nbsp;</p>
+</td></tr>
+<tr><td><b>Enter Name:</b></td>
+<td><input type="text" name="name"class="txtbox"onfocus="info('name')" onblur="clear_display()"required /></td>
+</tr><br>
+<tr><td><b>Enter Gender:</b></td>
+<td>
+ <div class="styled-select">
+<select name="gender"class="div"width="10">
+<option>male</option>
+<option>female</option>
+</td>
+<tr>
+<td><b>Age:</b></td>
+<td><input type="text" name="age"class="txtbox"onfocus="info('l')" onblur="clear_display()"required/><br></td>
+</tr>
+<tr>
+<td><b>Aadhaar No:</b></td>
+<td><input type="text" name="aadhaar"class="txtbox"onfocus="info('l')" onblur="clear_display()"required/><br></td>
+</tr>
+<tr>
+<td><b>Location:</b></td>
+<td><input type="text" name="location"class="txtbox"onfocus="info('l')" onblur="clear_display()"required/><br></td>
+</tr>
+<tr><td><b>specialisation:</b></td>
+<td>
+<div class="styled-select">
+<select name="specialisation" class="div"onfocus="info('specialisation')" onblur="clear_display()"/>
+<option>Cardiologist</option>
+<option>Pulmonologist</option>
+<option>Opthamologist</option>
+<option>Neurologist</option>
+<option>Nephrologist</option>
+<option>Dermatologist</option>
+<option>Gyneacologist</option>
+<option>Sexologist</option>
+<option>Radiologist</option>
+<option>Orthologist</option>
+<option>psycologist</option>
+</td>
+</tr>
+</div>
+<tr>
+<tr><td><b>Doctor Name:</b></td>
+<td><input type="text" name="doctorname"class="txtbox"onfocus="info('dn')" onblur="clear_display()"required/><br></td>
+</tr>
+<tr><td><b>Date of Appointment:</b></td><td>
+<input type="date" name="dapp" class="txtbox"onfocus="info('dd')" onblur="clear_display()"required/><br></td>
+</tr>
+<tr><td colspan="2" align="center"><input type="submit" value="submit" class="btn" onclick="return validateData();" />
+<input type="reset" value="clear"class="btn" /></td>
+</tr></tbody></table>
+</form>
+</div>
+<div style="position:relative; left: -80px; top:280px;">
+<a href="http://localhost/drsearch/html/appointment.html">back<<</a>
+</div>
+</body>
+</html>

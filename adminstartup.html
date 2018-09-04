@@ -1,0 +1,72 @@
+<html>
+	<head>
+	<html>
+<script lang="text/javascript" src="http://localhost/ExpenseManager/RegisterUser.js"></script>
+<link rel="stylesheet" href="http://localhost/ExpenseManager/RegisterUser.css"></link>
+<title>ADMIN START UP</title>
+<table border="0" background="./img/table2.jpg" width=100% height=20%></tbody><tr>
+<td><h1 style="font:90px footlight MT light; text-align:center; color:white"</h1> DR SEARCH:admin
+</td></tr>
+		<title> admin startup </title>
+		<link rel="stylesheet" href="start_page.css" />
+		<script type="text/javascript">
+			function open_link(id)
+			{
+				if(id === "img1")
+					document.location = "http://localhost/drsearch/html/hospitaladmin.html";
+				else if(id === "img2")
+					document.location = "http://localhost/drsearch/html/doctoradmin.html";
+				else if(id === "img3")
+					document.location = "http://localhost/drsearch/html/bloodbankadmin.html";
+				else if(id === "img4")
+					document.location = "http://localhost/drsearch/html/appointmentretrive.php";
+				else if(id === "img5")
+					document.location = "http://localhost/drsearch/html/diagonisticsretrive.php";	
+			}
+			function logoutUser()
+			{
+				document.location = "http://localhost/ExpenseManager/UserLogout.php";
+			}
+		</script>
+	</head>
+	<body>
+		<table cellspacing="60" class="menu">
+			<tr>
+				<td class="menuitem" id='item1'>
+					<img src="img/doc8.jpg" onclick="open_link('img1')"style="cursor:pointer; class="grayscale_img"  />
+					<span id="miniHead"><p> Add hospitals </p></span>
+				</td>
+				<td class="menuitem" id='item2'>
+					<img src="img/doctor.jpg"onclick="open_link('img2')"style="cursor:pointer;  class="grayscale_img" />
+					<span id="miniHead"><p> Add doctors </p></span>
+				</td>
+				<td class='menuitem' id='item3'>
+					<img src="img/blood4.gif" onclick="open_link('img3')" style="cursor:pointer; class="grayscale_img" />
+					<span id="miniHead"><p> Manage bloodbank </p></span>
+				</td>
+				<td class='menuitem' id='item4'>
+					<img src="img/doctor4.gif" onclick="open_link('img4')"style="cursor:pointer; class="grayscale_img" />
+					<span id="miniHead"><p> Manage Appointments </p></span>
+				</td>
+				<td class='menuitem' id='item5'>
+					<img src="img/doc6.jpg" onclick="open_link('img4')" style="cursor:pointer; class="grayscale_img" />
+					<span id="miniHead"><p> Add Diagonistic centers </p></span>
+				</td>
+			</tr>
+		</table>
+		
+		<small>redirect to </small><big>HOME&nbsp&nbsp<a href=home.html>clickhere>></a></big>
+<table  width=100% border="0"  cellpadding=20px cellspacing="0">
+<tr class="layout4">
+<td  align="center" width="100%" colspan="3"> 
+  Privacy policy | Terms
+  <center> 
+    <small>Copyright © 2017  DrSearch  All Rights Reserved. | English| Hindi | conditions Apply. </small>  </br>
+	<small>DUPLICATION or illegal use of use of the website are strictly prosecuted..... </small> 
+</center>
+</br>  
+  </td> 
+  </tr>
+</table>
+	</body>
+</html>

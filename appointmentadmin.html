@@ -1,0 +1,36 @@
+<html>
+<link rel="stylesheet" href="http://localhost/Drsearch/html/RegisterUser.css"></link>
+<title>APPOINTMENT ADMIN</title>
+<table border="0" background="./img/table2.jpg" width=100% height=20%></tbody><tr>
+<td><h1 style="font:90px footlight MT light; text-align:center; color:white"</h1> DR SEARCH:admin
+</td></tr>
+<body>
+<table border="1"cellpadding="1"cellspacing="0"bgcolor="#82caff" height=10% width=100%  align=center ><tbody>
+<tr>
+<td onclick="location.href='http://localhost/drsearch/html/hospitaladmin.html'"align=center style="cursor:pointer;font:20px footlight MT light;">HOSPITALS</td>
+<td onclick="location.href='http://localhost/drsearch/html/doctoradmin.html'"align=center style="cursor:pointer;font:20px footlight MT light">DOCTORS</td>
+<td onclick="location.href='http://localhost/drsearch/html/bloodbankadmin.html'"align=center style="cursor:pointer;font:20px footlight MT light;">BLOODBANK</td>
+<td onclick="location.href='http://localhost/drsearch/html/appointmentadmin.html'"align=center style="cursor:pointer;font:20px footlight MT light;background-color:cyan;">APPOINTMENTS</td>
+<td onclick="location.href='http://localhost/drsearch/html/diagonisticadmin.html'"align=center style="cursor:pointer;font:20px footlight MT light;">DIAGONASTIC CENTERS</td>
+</tr><form action="http://localhost/drsearch/html/appointmentretrive.php" method="post"name="regForm">
+<table border="0" cellpadding="20"cellspacing="0"width=30% height=20% align=center class="registrationform"></tbody>
+<tr>
+ <tr><b>
+   <center><h4 style="font:50px consolas;color:green;">view Appointments By DATE</h4></center>
+</b></tr>
+</tr><br>
+<tr><td><b>Enter Date:</b></td>
+<td>
+<input type="date" name="dapp" class="txtbox"onfocus="info('dd')" onblur="clear_display()"/><br>
+</td>
+<tr><td><input type="submit" value="submit"  class="btn"/></td>
+<td><input type="reset" value="clear" class="btn"></td>
+</tr>
+</tr>
+</center>
+</form>
+<div style="position:absolute; left: 30px; top: 230px;">
+<small>redirect to </small><big>HOME<a href=home.html>clickhere>></a>
+</div>
+</body>
+</html>
